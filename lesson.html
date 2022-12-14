@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+        <style>
+            .active {
+                color: #BEF714 !important;
+                /* background-color: #000000!important;
+                border-color: #000000;
+                border-radius: 1rem; */
+            }
+
+            .active:hover{
+                color: #BEF714;
+            }
+            .active:after{
+                content: " ";
+            }
+        </style>
+    </head>
+    <body class="bg-primary-py">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary-py fixed-top border-0">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo.png" height="50" width="50" class="me-1" />
+                        <b>ProyectoReal</b>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#leadUIDemoNav-1" aria-controls="leadUIDemoNav-1" aria-expanded="false" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                    </button>
+                    <div class="collapse navbar-collapse text-center" id="leadUIDemoNav-1">
+                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Projects</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-golden-py" href="#">Primium</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ">
+                            <li class="nav-item ms-2">
+                                <a href="#" class="btn btn-outline-success-py">Iniciar Sesión</a>
+                            </li>
+                            <li class="nav-item ms-2">
+                                <a href="#!" class="btn btn-success-py btn-rounded">Registrarse</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container py-5 mt-5 pt-2">
+            <div class="row">
+                <div class="col-lg-4 mb-3">
+
+                    <div class="sticky-top">
+                        <div class="card course-panel">
+                            <a class="card-link text-decoration-none" data-bs-toggle="collapse" href="#collapse_149" aria-expanded="true">
+                                <div class="card-header d-flex align-items-center" style="color: #fff;">
+                                    <span class="float-start">
+                                        <i class="bi me-3 bi-chevron-up"></i>
+                                    </span>
+                                    <b>Module 1 - Designing UI</b>
+                                </div>
+                            </a>
+                            <div id="collapse_149" class="lesson collapse show">
+                                <div class="card-body">
+                                    <div class="mb-2">
+                                        <a href="" class="text-decoration-none active">
+                                            Create Your First Xcode Project
+                                        </a>
+                                        <span class="float-end">
+                                            <i class="bi bi-play-btn me-2"></i>
+                                            9:21
+                                        </span>
+                                    </div>
+                                    <div class="mb-2">
+                                        <a href="" class="text-decoration-none" style="color: #f1f1f1;">
+                                            Create Your First Xcode Project
+                                        </a>
+                                        <span class="float-end">
+                                            <i class="bi bi-play-btn me-2"></i>
+                                            9:21
+                                        </span>
+                                    </div>
+                                    <div class="mb-2">
+                                        <a href="" class="text-decoration-none" style="color: #f1f1f1;">
+                                            Create Your First Xcode Project
+                                        </a>
+                                        <span class="float-end">
+                                            <i class="bi bi-play-btn me-2"></i>
+                                            9:21
+                                        </span>
+                                    </div>
+                                    <div class="mb-2">
+                                        <a href="" class="text-decoration-none" style="color: #f1f1f1;">
+                                            Create Your First Xcode Project
+                                        </a>
+                                        <span class="float-end">
+                                            <i class="bi bi-play-btn me-2"></i>
+                                            9:21
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card course-panel">
+                            <a class="card-link" data-bs-toggle="collapse" href="#collapse_id-2">
+                                <div class="card-header text-golden-py d-flex align-items-center">
+                                    <span class="pull-left"><i class="bi bi-chevron-up mr-3"></i></span>
+                                    <div>Module 1</div>
+                                </div>
+                            </a>
+                            
+                            <div id="collapse_id-2" class="collapse lesson"> 
+                                
+                                <div class="card-body">
+                                    <p class="mb-2" style="font-size: 14px">
+                                        <span><i class="bi bi-play-btn mr-3"></i> indrction</span>
+                                        <span class="float-end">3 min</span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card course-panel">
+                            <a class="card-link" data-bs-toggle="collapse" href="#collapse_id-3">
+                                <div class="card-header text-golden-py d-flex align-items-center">
+                                    <span class="pull-left"><i class="bi bi-chevron-up mr-3"></i></span>
+                                    <div>Module 1</div>
+                                </div>
+                            </a>
+                            
+                            <div id="collapse_id-3" class="collapse lesson"> 
+                                
+                                <div class="card-body">
+                                    <p class="mb-2" style="font-size: 14px">
+                                        <span><i class="bi bi-play-btn mr-3"></i> indrction</span>
+                                        <span class="float-end">3 min</span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card course-panel">
+                            <a class="card-link" data-bs-toggle="collapse" href="#collapse_id-4">
+                                <div class="card-header text-golden-py d-flex align-items-center">
+                                    <span class="pull-left"><i class="bi bi-chevron-up mr-3"></i></span>
+                                    <div>Module 1</div>
+                                </div>
+                            </a>
+                            
+                            <div id="collapse_id-4" class="collapse lesson"> 
+                                
+                                <div class="card-body">
+                                    <p class="mb-2" style="font-size: 14px">
+                                        <span><i class="bi bi-play-btn mr-3"></i> indrction</span>
+                                        <span class="float-end">3 min</span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card course-panel">
+                            <a class="card-link" data-toggle="collapse" href="#collapse_id-5">
+                                <div class="card-header text-golden-py d-flex align-items-center">
+                                    <span class="pull-left"><i class="bi bi-chevron-up mr-3"></i></span>
+                                    <div>Module 1</div>
+                                </div>
+                            </a>
+                            
+                            <div id="collapse_id-5" class="collapse lesson"> 
+                                
+                                <div class="card-body">
+                                    <p class="mb-2" style="font-size: 14px">
+                                        <span><i class="bi bi-play-btn mr-3"></i> indrction</span>
+                                        <span class="float-right">3 min</span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card course-panel">
+                            <a class="card-link" data-toggle="collapse" href="#collapse_id-6">
+                                <div class="card-header text-golden-py d-flex align-items-center">
+                                    <span class="pull-left"><i class="bi bi-chevron-up mr-3"></i></span>
+                                    <div>Module 1</div>
+                                </div>
+                            </a>
+                            
+                            <div id="collapse_id-6" class="collapse lesson"> 
+                                
+                                <div class="card-body">
+                                    <p class="mb-2" style="font-size: 14px">
+                                        <span><i class="bi bi-play-btn mr-3"></i> indrction</span>
+                                        <span class="float-right">3 min</span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card course-panel">
+                            <a class="card-link" data-toggle="collapse" href="#collapse_id-7">
+                                <div class="card-header text-golden-py d-flex align-items-center">
+                                    <span class="pull-left"><i class="bi bi-chevron-up mr-3"></i></span>
+                                    <div>Module 1</div>
+                                </div>
+                            </a>
+                            
+                            <div id="collapse_id-7" class="collapse lesson"> 
+                                
+                                <div class="card-body">
+                                    <p class="mb-2" style="font-size: 14px">
+                                        <span><i class="bi bi-play-btn mr-3"></i> indrction</span>
+                                        <span class="float-right">3 min</span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card course-panel">
+                            <a class="card-link" data-bs-toggle="collapse" href="#collapse_id-45">
+                                <div class="card-header text-golden-py d-flex align-items-center">
+                                    <span class="pull-left"><i class="bi bi-chevron-up mr-3"></i></span>
+                                    <div>Module 1</div>
+                                </div>
+                            </a>
+                            
+                            <div id="collapse_id-45" class="collapse lesson"> 
+                                
+                                <div class="card-body">
+                                    <p class="mb-2" style="font-size: 14px">
+                                        <span><i class="bi bi-play-btn mr-3"></i> indrction</span>
+                                        <span class="float-end">3 min</span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card course-panel">
+                            <a class="card-link" data-toggle="collapse" href="#collapse_id-35">
+                                <div class="card-header text-golden-py d-flex align-items-center">
+                                    <span class="pull-left"><i class="bi bi-chevron-up mr-3"></i></span>
+                                    <div>Module 1</div>
+                                </div>
+                            </a>
+                            
+                            <div id="collapse_id-35" class="collapse lesson"> 
+                                
+                                <div class="card-body">
+                                    <p class="mb-2" style="font-size: 14px">
+                                        <span><i class="bi bi-play-btn mr-3"></i> indrction</span>
+                                        <span class="float-right">3 min</span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card course-panel">
+                            <a class="card-link" data-toggle="collapse" href="#collapse_id-34">
+                                <div class="card-header text-golden-py d-flex align-items-center">
+                                    <span class="pull-left"><i class="bi bi-chevron-up mr-3"></i></span>
+                                    <div>Module 1</div>
+                                </div>
+                            </a>
+                            
+                            <div id="collapse_id-34" class="collapse lesson"> 
+                                
+                                <div class="card-body">
+                                    <p class="mb-2" style="font-size: 14px">
+                                        <span><i class="bi bi-play-btn mr-3"></i> indrction</span>
+                                        <span class="float-right">3 min</span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card course-panel">
+                            <a class="card-link" data-toggle="collapse" href="#collapse_id-20">
+                                <div class="card-header text-golden-py d-flex align-items-center">
+                                    <span class="pull-left"><i class="bi bi-chevron-up mr-3"></i></span>
+                                    <div>Module 1</div>
+                                </div>
+                            </a>
+                            
+                            <div id="collapse_id-20" class="collapse lesson"> 
+                                
+                                <div class="card-body">
+                                    <p class="mb-2" style="font-size: 14px">
+                                        <span><i class="bi bi-play-btn mr-3"></i> indrction</span>
+                                        <span class="float-right">3 min</span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card course-panel">
+                            <a class="card-link" data-bs-toggle="collapse" href="#collapse_id-21">
+                                <div class="card-header text-golden-py d-flex align-items-center">
+                                    <span class="pull-left"><i class="bi bi-chevron-up mr-3"></i></span>
+                                    <div>Module 1</div>
+                                </div>
+                            </a>
+                            
+                            <div id="collapse_id-21" class="collapse lesson"> 
+                                
+                                <div class="card-body">
+                                    <p class="mb-2" style="font-size: 14px">
+                                        <span><i class="bi bi-play-btn mr-3"></i> indrction</span>
+                                        <span class="float-end">3 min</span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card course-panel">
+                            <a class="card-link" data-toggle="collapse" href="#collapse_id-22">
+                                <div class="card-header text-golden-py d-flex align-items-center">
+                                    <span class="pull-left"><i class="bi bi-chevron-up mr-3"></i></span>
+                                    <div>Module 1</div>
+                                </div>
+                            </a>
+                            
+                            <div id="collapse_id-22" class="collapse lesson"> 
+                                
+                                <div class="card-body">
+                                    <p class="mb-2" style="font-size: 14px">
+                                        <span><i class="bi bi-play-btn mr-3"></i> indrction</span>
+                                        <span class="float-right">3 min</span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card course-panel">
+                            <a class="card-link" data-toggle="collapse" href="#collapse_id-43">
+                                <div class="card-header text-golden-py d-flex align-items-center">
+                                    <span class="pull-left"><i class="bi bi-chevron-up mr-3"></i></span>
+                                    <div>Module 1</div>
+                                </div>
+                            </a>
+                            
+                            <div id="collapse_id-43" class="collapse lesson"> 
+                                
+                                <div class="card-body">
+                                    <p class="mb-2" style="font-size: 14px">
+                                        <span><i class="bi bi-play-btn mr-3"></i> indrction</span>
+                                        <span class="float-right">3 min</span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card course-panel">
+                            <a class="card-link" data-toggle="collapse" href="#collapse_id-54">
+                                <div class="card-header text-golden-py d-flex align-items-center">
+                                    <span class="pull-left"><i class="bi bi-chevron-up mr-3"></i></span>
+                                    <div>Module 1</div>
+                                </div>
+                            </a>
+                            
+                            <div id="collapse_id-54" class="collapse lesson"> 
+                                
+                                <div class="card-body">
+                                    <p class="mb-2" style="font-size: 14px">
+                                        <span><i class="bi bi-play-btn mr-3"></i> indrction</span>
+                                        <span class="float-right">3 min</span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card course-panel">
+                            <a class="card-link" data-bs-toggle="collapse" href="#collapse_id-66">
+                                <div class="card-header text-golden-py d-flex align-items-center">
+                                    <span class="pull-left"><i class="bi bi-chevron-up mr-3"></i></span>
+                                    <div>Module 1</div>
+                                </div>
+                            </a>
+                            
+                            <div id="collapse_id-66" class="collapse lesson"> 
+                                
+                                <div class="card-body">
+                                    <p class="mb-2" style="font-size: 14px">
+                                        <span><i class="bi bi-play-btn mr-3"></i> indrction</span>
+                                        <span class="float-end">3 min</span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card course-panel">
+                            <a class="card-link" data-toggle="collapse" href="#collapse_id-77">
+                                <div class="card-header text-golden-py d-flex align-items-center">
+                                    <span class="pull-left"><i class="bi bi-chevron-up mr-3"></i></span>
+                                    <div>Module 1</div>
+                                </div>
+                            </a>
+                            
+                            <div id="collapse_id-77" class="collapse lesson"> 
+                                
+                                <div class="card-body">
+                                    <p class="mb-2" style="font-size: 14px">
+                                        <span><i class="bi bi-play-btn mr-3"></i> indrction</span>
+                                        <span class="float-right">3 min</span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card course-panel">
+                            <a class="card-link" data-toggle="collapse" href="#collapse_id-88">
+                                <div class="card-header text-golden-py d-flex align-items-center">
+                                    <span class="pull-left"><i class="bi bi-chevron-up mr-3"></i></span>
+                                    <div>Module 1</div>
+                                </div>
+                            </a>
+                            
+                            <div id="collapse_id-88" class="collapse lesson"> 
+                                
+                                <div class="card-body">
+                                    <p class="mb-2" style="font-size: 14px">
+                                        <span><i class="bi bi-play-btn mr-3"></i> indrction</span>
+                                        <span class="float-right">3 min</span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card course-panel">
+                            <a class="card-link" data-toggle="collapse" href="#collapse_id-99">
+                                <div class="card-header text-golden-py d-flex align-items-center">
+                                    <span class="pull-left"><i class="bi bi-chevron-up mr-3"></i></span>
+                                    <div>Module 1</div>
+                                </div>
+                            </a>
+                            
+                            <div id="collapse_id-99" class="collapse lesson"> 
+                                
+                                <div class="card-body">
+                                    <p class="mb-2" style="font-size: 14px">
+                                        <span><i class="bi bi-play-btn mr-3"></i> indrction</span>
+                                        <span class="float-right">3 min</span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8" >
+                    <div class="text-center">
+                        <h1>Project title from lesson</h1>
+                    </div>
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://player.vimeo.com/video/76979871" width="940" height="580" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Details</h5>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $(document).on('click', '.card .card-link', function (e) {
+                var $this = $(this);
+                var $i = $this.find("i");
+
+                if ($i.hasClass('bi-chevron-down')) {
+                    $i.removeClass('bi-chevron-down').addClass('bi-chevron-up');
+                } else {
+                    $i.removeClass('bi-chevron-up').addClass('bi-chevron-down');
+                }
+            })
+        </script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>

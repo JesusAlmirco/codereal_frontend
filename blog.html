@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    </head>
+    <body class="bg-primary-py">
+        <!-- <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand text-light-py mr-5" href="/">
+                    <img src="" class="logo mr-2">
+                    <b>ProyectoReal</b>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item pr-4">
+                            <a class="nav-link text-light-py" href="/screencasts_and_tutorials/">Screencasts &amp; Tutorials</a>
+                        </li>
+                        <li class="nav-item pr-4">
+                            <a class="nav-link text-light-py" href="/projects/">Projects</a>
+                        </li>
+                        <li class="nav-item pr-4">
+                            <a class="nav-link text-golden-py" href="https://bit.ly/3gxCsU5">Premium <span class="text-danger" style="font-weight: 600">{Special Deal}</span></a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item mr-4">
+                            <a class="nav-link text-white" href="/sign-in/">Sign In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white btn btn-success-py pr-4 pl-4" href="/sign-up/">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div> -->
+        
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary-py fixed-top border-0">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo.png" height="50" width="50" class="me-1" />
+                        <b>ProyectoReal</b>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#leadUIDemoNav-1" aria-controls="leadUIDemoNav-1" aria-expanded="false" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                    </button>
+                    <div class="collapse navbar-collapse text-center" id="leadUIDemoNav-1">
+                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Projects</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-golden-py" href="#">Primium</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ">
+                            <li class="nav-item ms-2">
+                                <a href="#" class="btn btn-outline-success-py">Iniciar Sesión</a>
+                            </li>
+                            <li class="nav-item ms-2">
+                                <a href="#!" class="btn btn-success-py btn-rounded">Registrarse</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <div class="container mt-5 pt-2">
+
+            <h1 class="text-center mt-5 mb-5"><span class="text-golden-py">Pro</span> Projects</h1>
+            
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card bg-primary-light-py mb-4">
+                        <div class="card-body">
+                            <h6 class="fw-bold">Article</h6>
+                            <hr class="text-100" />
+                            <div class="d-flex">
+                                <div class="col-3 text-center">
+                                    <a href="details.html" class="rounded-4">
+                                        <img alt="..." class="rounded-3" src="https://images.unsplash.com/photo-1579463148228-138296ac3b98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" width="45" >
+                                    </a>
+                                </div>
+                                <div class="col-9">
+                                    <div class="my-6">
+                                        <!-- Title -->
+                                        <a href="details.html" class="d-block mb-0 fw-bold lh-base fs-6 text-500 text-decoration-none" style="color: #fff;">
+                                            How do you use social media for growing traffic and sales?
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            <!-- Stats -->
+                            <div class="d-flex mt-2">
+                                
+                                <div class="col-4 text-center">
+                                    <a href="#" class="h4 font-bolder mb-0" style="color: #fff;">
+                                        <svg class="me-2" width="25" heigth="25"  fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                        <!-- <i class="bi bi-collection-play me-2"></i> -->
+                                        <!-- <svg  class="me-2" width="25" heigth="25" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg> -->
+                                    </a>
+                                    <span class="d-block text-sm">7.8 hours</span>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <a href="#" class="h4 font-bolder mb-0" style="color: #fff;">
+                                        <svg class="me-2" width="25" heigth="25" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                                    </a>
+                                    <span class="d-block text-sm">1.5k</span>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <a href="#" class="h4 font-bolder mb-0">
+                                        <svg class="me-2" width="25" heigth="25" fill="none" stroke="#ffffff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"></path></svg>
+                                    </a>
+                                    <span class="d-block text-sm">
+                                        <b class="text-success-py">Free</b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-primary-light-py mb-4">
+                        <div class="card-body">
+                            <h6 class="fw-bold">Article</h6>
+                            <hr class="text-100" />
+                            <div class="d-flex">
+                                <div class="col-3 text-center">
+                                    <a href="#" class="rounded-4">
+                                        <img alt="..." class="rounded-3" src="https://images.unsplash.com/photo-1579463148228-138296ac3b98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" width="45" >
+                                    </a>
+                                </div>
+                                <div class="col-9">
+                                    <div class="my-6">
+                                        <!-- Title -->
+                                        <a href="#" class="d-block mb-0 fw-bold lh-base fs-6 text-500 text-decoration-none">
+                                            How do you use social media for growing traffic and sales?
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div class="d-flex mt-2">
+                                <div class="col-4 text-center">
+                                    <a href="#" class="h4 font-bolder mb-0">
+                                        <!-- <i class="bi bi-collection-play me-2"></i> -->
+                                        <svg class="me-2" width="25" heigth="25" fill="none" stroke="#ffffff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                        <!-- <svg  class="me-2" width="25" heigth="25" stroke="#ffffff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg> -->
+                                    </a>
+                                    <span class="d-block text-sm">7.8 hours</span>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <a href="#" class="h4 font-bolder mb-0">
+                                        <svg class="me-2" width="25" heigth="25" fill="none" stroke="#ffffff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                                    </a>
+                                    <span class="d-block text-sm">1.5k</span>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <a href="#" class="h4 font-bolder mb-0">
+                                        <svg class="me-2" width="25" heigth="25" fill="none" stroke="#ffffff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"></path></svg>
+                                    </a>
+                                    <span class="d-block text-sm">
+                                        <b class="text-success-py">Premium</b>
+                                    </span>
+                                </div>
+                                
+                                <!-- <div class="col-4 text-center">
+                                    <a href="#" class="h4 font-bolder mb-0">
+                                        <i class="bi bi-book me-2"></i>
+                                    </a>
+                                    <span class="d-block text-sm">340</span>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <a href="#" class="h4 font-bolder mb-0">
+                                        <i class="bi bi-eye me-2"></i>
+                                    </a>
+                                    <span class="d-block text-sm">1.5k</span>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <a href="#" class="h4 font-bolder mb-0">
+                                        <img class="me-3 me-md-3 rounded-circle" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.webp" alt="blog" width="25" />
+                                    </a>
+                                    <span class="d-block text-sm">Julienne Moore</span>
+                                </div> -->
+                                <!-- <div class="col-4 text-center">
+                                <a href="#" class="h4 font-bolder mb-0">1.5K</a>
+                                <span class="d-block text-sm">Followers</span>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-primary-light-py mb-4">
+                        <div class="card-body">
+                            <h6 class="fw-bold">Article</h6>
+                            <hr class="text-100" />
+                            <div class="d-flex">
+                                <div class="col-3 text-center">
+                                    <a href="#" class="rounded-4">
+                                        <img alt="..." class="rounded-3" src="https://images.unsplash.com/photo-1579463148228-138296ac3b98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" width="45" >
+                                    </a>
+                                </div>
+                                <div class="col-9">
+                                    <div class="my-6">
+                                        <!-- Title -->
+                                        <a href="#" class="d-block mb-0 fw-bold lh-base fs-6 text-500 text-decoration-none">
+                                            How do you use social media for growing traffic and sales?
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            <!-- Stats -->
+                            <div class="d-flex mt-2">
+                                
+                                <div class="col-4 text-center">
+                                    <a href="#" class="h4 font-bolder mb-0">
+                                        <i class="bi bi-book me-2"></i>
+                                    </a>
+                                    <span class="d-block text-sm">340</span>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <a href="#" class="h4 font-bolder mb-0">
+                                        <i class="bi bi-eye me-2"></i>
+                                    </a>
+                                    <span class="d-block text-sm">1.5k</span>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <a href="#" class="h4 font-bolder mb-0">
+                                        <img class="me-3 me-md-3 rounded-circle" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.webp" alt="blog" width="25" />
+                                    </a>
+                                    <span class="d-block text-sm">Julienne Moore</span>
+                                </div>
+                                <!-- <div class="col-4 text-center">
+                                <a href="#" class="h4 font-bolder mb-0">1.5K</a>
+                                <span class="d-block text-sm">Followers</span>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-primary-light-py mb-4">
+                        <div class="card-body">
+                            <h6 class="fw-bold">Article</h6>
+                            <hr class="text-100" />
+                            <div class="d-flex">
+                                <div class="col-3 text-center">
+                                    <a href="#" class="rounded-4">
+                                        <img alt="..." class="rounded-3" src="https://images.unsplash.com/photo-1579463148228-138296ac3b98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" width="45" >
+                                    </a>
+                                </div>
+                                <div class="col-9">
+                                    <div class="my-6">
+                                        <!-- Title -->
+                                        <a href="#" class="d-block mb-0 fw-bold lh-base fs-6 text-500 text-decoration-none">
+                                            How do you use social media for growing traffic and sales?
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            <!-- Stats -->
+                            <div class="d-flex mt-2">
+                                
+                                <div class="col-4 text-center">
+                                    <a href="#" class="h4 font-bolder mb-0">
+                                        <i class="bi bi-book me-2"></i>
+                                    </a>
+                                    <span class="d-block text-sm">340</span>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <a href="#" class="h4 font-bolder mb-0">
+                                        <i class="bi bi-eye me-2"></i>
+                                    </a>
+                                    <span class="d-block text-sm">1.5k</span>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <a href="#" class="h4 font-bolder mb-0">
+                                        <img class="me-3 me-md-3 rounded-circle" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.webp" alt="blog" width="25" />
+                                    </a>
+                                    <span class="d-block text-sm">Julienne Moore</span>
+                                </div>
+                                <!-- <div class="col-4 text-center">
+                                <a href="#" class="h4 font-bolder mb-0">1.5K</a>
+                                <span class="d-block text-sm">Followers</span>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-primary-light-py mb-4">
+                        <div class="card-body">
+                            <h6 class="fw-bold">Article</h6>
+                            <hr class="text-100" />
+                            <div class="d-flex">
+                                <div class="col-3 text-center">
+                                    <a href="#" class="rounded-4">
+                                        <img alt="..." class="rounded-3" src="https://images.unsplash.com/photo-1579463148228-138296ac3b98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" width="45" >
+                                    </a>
+                                </div>
+                                <div class="col-9">
+                                    <div class="my-6">
+                                        <!-- Title -->
+                                        <a href="#" class="d-block mb-0 fw-bold lh-base fs-6 text-500 text-decoration-none">
+                                            How do you use social media for growing traffic and sales?
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            <!-- Stats -->
+                            <div class="d-flex mt-2">
+                                
+                                <div class="col-4 text-center">
+                                    <a href="#" class="h4 font-bolder mb-0">
+                                        <i class="bi bi-book me-2"></i>
+                                    </a>
+                                    <span class="d-block text-sm">340</span>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <a href="#" class="h4 font-bolder mb-0">
+                                        <i class="bi bi-eye me-2"></i>
+                                    </a>
+                                    <span class="d-block text-sm">1.5k</span>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <a href="#" class="h4 font-bolder mb-0">
+                                        <img class="me-3 me-md-3 rounded-circle" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.webp" alt="blog" width="25" />
+                                    </a>
+                                    <span class="d-block text-sm">Julienne Moore</span>
+                                </div>
+                                <!-- <div class="col-4 text-center">
+                                <a href="#" class="h4 font-bolder mb-0">1.5K</a>
+                                <span class="d-block text-sm">Followers</span>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row flex-center circle-blend circle-blend-left circle-primary">
+                <div class="col-12">
+                  <div class="row align-items-center circle-blend circle-blend-right circle-warning">
+                    <div class="col-md-6 col-lg-4 mb-4 undefined">
+                      <div class="card bg-primary-light-py p-3">
+                        <div class="card-body">
+                            <h6 class="fw-bold">Article</h6>
+                            <hr class="text-100" />
+                            <h5 class="fw-bold lh-base fs-3 text-500">
+                                How do you use social media for growing traffic and sales?
+                            </h5>
+                          <div class="d-flex align-items-center">
+                            <img class="me-3 me-md-3 rounded-circle" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.webp" alt="blog" width="40" />
+                            <div class="my-3 fs--1">
+                              <p class="mb-0 fw-bold">Jessica Parker</p>
+                              <small class="fw-normal mb-0">May, 2020 .<span>5 mins read</span></small>
+                            </div>
+                          </div>
+                            <div class="d-flex align-items-center mt-4 fs--1"> 
+                                <!-- <svg class="bi bi-hand-thumbs-up me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#C381DB" viewBox="0 0 16 16">
+                                <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"></path>
+                                </svg> -->
+                                <i class="bi bi-book me-2"></i>
+                                <span class="me-4">34</span>
+                                <!-- <svg class="bi bi-eye me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#C381DB" viewBox="0 0 16 16">
+                                <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"></path>
+                                <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"></path>
+                                </svg> -->
+                                <i class="bi bi-eye me-2"></i>
+                                <span>203</span>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>
